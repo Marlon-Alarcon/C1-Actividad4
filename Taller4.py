@@ -80,7 +80,7 @@ class Empleado(Persona):
                 break
 def menuPrincipal():
     os.system("clear")
-    opciones = ( #menu en forma de tupla
+    opciones = (
         " ╔════════════════════════╗",
         " ║    ----  MENÚ  ----    ║",
         " ╚════════════════════════╝",
