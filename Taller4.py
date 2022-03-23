@@ -8,7 +8,7 @@ class Persona:
     def agregarPersonas(self):
         self.id = input("ID: ")
         if self.id in self.personas:
-            print("Este codigo ya existe.")
+            print(" -- Este Id ya existe. -- ")
         else:
             self.cedula = input("Ingrese su cedula: ")
             self.nombre = input("Ingrese su nombre: ")
