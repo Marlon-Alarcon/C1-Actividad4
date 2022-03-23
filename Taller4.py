@@ -17,6 +17,8 @@ class Persona:
             self.telefono = input("Ingrese su telefono: ")
             self.personas[self.id] = (self.cedula, self.nombre, self.apellido, self.direccion, self.telefono)
 
+
+
     def menu (self, opciones):
         while(True):
             os.system("clear")
