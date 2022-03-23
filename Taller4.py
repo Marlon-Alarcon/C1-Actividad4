@@ -57,6 +57,7 @@ class Empleado(Persona):
             if opcion == "1":
                 os.system("clear")
                 self.agregarEmpleado()
+                print("")
                 time.sleep(0.6)
                 print(" ------ Datos Agregados ------ ")
                 print("")
@@ -66,6 +67,7 @@ class Empleado(Persona):
             elif opcion == "2":
                 os.system("clear")
                 self.mostrarEmpleado()
+                print("")
                 input("Digite enter para continuar")
             
             elif opcion == "3":
