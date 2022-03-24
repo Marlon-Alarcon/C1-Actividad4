@@ -46,6 +46,18 @@ class Empleado(Persona):
             for i, v in self.personas.items():
                 print(f"{i}: {v}")
 
+
+    def eliminarEmpleado(self):
+        if len(self.personas) == 0:
+            print("No hay nada que eliminar")
+        else:
+            self.eliminar = input("Ingrese el id del empleado a eliminar: ")
+            if (self.eliminar in self.personas):
+                print(f"Se eliminó {self.personas.pop(self.eliminar)}")
+            else:
+                print("Este id no existe")
+   
+
     def menu (self, opciones):
         while(True):
             os.system("clear")
@@ -71,7 +83,11 @@ class Empleado(Persona):
                 input("Digite enter para continuar")
             
             elif opcion == "3":
-                break
+                os.system("clear")
+                self.eliminarEmpleado()
+                print("")
+                input("Digite enter para continuar")
+                
 
             elif opcion == "4":
                 print("")
