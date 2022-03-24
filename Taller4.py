@@ -46,6 +46,12 @@ class Empleado(Persona):
             for i, v in self.personas.items():
                 print(f"{i}: {v}")
 
+
+    def eliminarEmpleado(self):
+        pass
+
+   
+
     def menu (self, opciones):
         while(True):
             os.system("clear")
