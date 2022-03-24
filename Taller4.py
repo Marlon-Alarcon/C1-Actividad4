@@ -52,7 +52,8 @@ class Empleado(Persona):
             print("No hay nada que eliminar")
         else:
             self.eliminar = input("Ingrese el id del empleado a eliminar: ")
-        
+        if (self.eliminar in self.personas):
+                print(f"Se eliminó {self.personas.pop(self.eliminar)}")
 
    
 
