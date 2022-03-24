@@ -83,6 +83,7 @@ class Empleado(Persona):
                 input("Digite enter para continuar")
             
             elif opcion == "3":
+                os.system("clear")
                 break
 
             elif opcion == "4":
