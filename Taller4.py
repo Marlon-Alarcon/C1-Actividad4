@@ -86,6 +86,8 @@ class Empleado(Persona):
                 os.system("clear")
                 self.eliminarEmpleado()
                 print("")
+                input("Digite enter para continuar")
+
                 break
 
             elif opcion == "4":
