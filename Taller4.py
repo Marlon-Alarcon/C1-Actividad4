@@ -48,7 +48,9 @@ class Empleado(Persona):
 
 
     def eliminarEmpleado(self):
-        pass
+        if len(self.personas) == 0:
+            print("No hay nada que eliminar")
+        
 
    
 
