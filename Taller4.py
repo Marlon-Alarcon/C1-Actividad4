@@ -84,6 +84,8 @@ class Empleado(Persona):
             
             elif opcion == "3":
                 os.system("clear")
+                self.eliminarEmpleado()
+                print("")
                 break
 
             elif opcion == "4":
