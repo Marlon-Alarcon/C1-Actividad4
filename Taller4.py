@@ -50,6 +50,8 @@ class Empleado(Persona):
     def eliminarEmpleado(self):
         if len(self.personas) == 0:
             print("No hay nada que eliminar")
+        else:
+            self.eliminar = input("Ingrese el id del empleado a eliminar: ")
         
 
    
